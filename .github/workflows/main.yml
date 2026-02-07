@@ -3,7 +3,7 @@ name: Build and Deploy to Azure
 on:
   push:
     branches:
-      - main  # Runs every time you push to the main branch
+      - master  # Runs every time you push to the main branch
 
 jobs:
   build-and-deploy:
